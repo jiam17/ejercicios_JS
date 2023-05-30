@@ -1,0 +1,70 @@
+/*estilos del body*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+.item-hover:hover{
+    background-color: rgb(51, 80, 80);
+    color: #ccc;
+}
+
+.margin-right{
+    margin-right: 4rem;
+}
+
+.margin-right1{
+    margin-left: 1rem;
+}
+
+.container_top{
+    margin-top: 5rem;
+}
+
+/*estilos para el footer*/
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  /*estilos del footer*/
+  #mensaje, #resultado, #resultadoAumento,   #resultadoComparacion, #resultadoDescuento{
+    display: none;
+  }
+
+/*boton de anterior y siguiente*/
+.btn-container {
+  transform: translateY(-50%);
+  z-index: 999;
+  display: flex;
+}
+
+.btn-container .btn {
+  margin: 5px;
+  background-color: transparent;
+}
+
+@media (max-width: 576px) {
+  .btn-container {
+    top: auto;
+    bottom: 10px;
+    transform: none;
+  }
+}
+
+/*edades*/
+
+.numberAge{
+  width: 250px;
+}
